@@ -1,176 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-        * {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+      * {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 40px 10%;
+        background: #f5f5f5;
+      }
+      .main-wrapper {
+        background: white;
+        padding: 40px;
+      }
+      section {
+        margin-bottom: 60px;
+      }
+      section.head,
+      section.youtube-embed {
+        text-align: center;
+      }
+      .button-link {
+        display: block;
+        margin: 20px 0 0 0;
+        padding: 10px 40px;
+        width: fit-content;
+        background: firebrick;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s transform ease-in-out;
+      }
+      .button-link:hover {
+        transform: scale(1.05);
+      }
+      h1 {
+        font-size: 34px;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      p {
+        text-align: justify;
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+      }
+      img {
+        max-width: 100%;
+      }
+      .two-col {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+      }
+      .two-col div {
+        width: 50%;
+      }
+      @media only screen and (max-width: 900px) {
         body {
-            padding: 40px 10%;
-            background: #F5F5F5;
-        }
-        .main-wrapper {
-            background: white;
-            padding: 40px;
-        }
-        section {
-            margin-bottom: 60px;
-        }
-        section.head,
-        section.youtube-embed {
-            text-align: center;
-        }
-        .button-link {
-            display: block;
-            margin: 20px 0 0 0;
-            padding: 10px 40px;
-            width: fit-content;
-            background: firebrick;
-            border-radius: 5px;
-            text-decoration: none;
-            color: white;
-            transition: .3s transform ease-in-out;
-        }
-        .button-link:hover {
-            transform: scale(1.05);
-        }
-        h1 {
-            font-size: 34px;
-        }
-        h2 {
-            margin-bottom: 20px;
-        }
-        p {
-            text-align: justify;
-            margin-bottom: 10px;
-            line-height: 1.5rem;
-        }
-        img {
-            max-width: 100%;
+          padding: 0;
         }
         .two-col {
-            display: flex;
-            justify-content: space-between;
-            gap: 40px;
+          flex-direction: column;
         }
         .two-col div {
-            width: 50%;
+          width: 100%;
         }
-        @media only screen and (max-width: 900px) {
-            body {
-                padding: 0;
-            }
-            .two-col {
-                flex-direction: column;
-            }
-            .two-col div {
-                width: 100%;
-            }
-            .main-wrapper {
-                padding: 5%;
-            }
+        .main-wrapper {
+          padding: 5%;
         }
+      }
     </style>
-    <title>The benefits of having a custom home built | Domain HomeCrafters</title>
-</head>
-<body>
+    <title>
+      The benefits of having a custom home built | Domain HomeCrafters
+    </title>
+  </head>
+  <body>
     <div class="main-wrapper">
-        <section class="head">
-            <h1>The benefits of having a custom home built</h1>
-        </section>
-        
-        <section>
-            <iframe width="100%" height="600" src="https://www.youtube.com/embed/aMTbUPiFr2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <a class="button-link"
-                href="https://www.domainhomecrafters.com/the-benefits-of-having-a-custom-home-built/">Read Post</a>
-        </section>
+      <section class="head">
+        <h1>The benefits of having a custom home built</h1>
+      </section>
 
-        <section>
-            <p>The benefits of having a custom home built are many. A custom-built home is an investment that will last your lifetime and beyond because it was designed with you in mind. When you buy a house off the plan, by contrast, all the design choices have already been made for you – usually without any input from you. The resulting house may be beautiful or ugly, functional or not-so-functional, but it’s unlikely to be perfect for your needs. Imagine how much more contented and productive you would feel if everything about your living space worked just as well as it should! And imagine what kind of difference this could make to the people who share your life with you – children who can’t wait to come home after school, your spouse who wants nothing better than to come home after work, or elderly relatives living with you who need special attention.</p>
-        </section>
+      <section>
+        <iframe
+          width="100%"
+          height="600"
+          src="https://www.youtube.com/embed/aMTbUPiFr2o"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <a
+          class="button-link"
+          href="https://www.domainhomecrafters.com/the-benefits-of-having-a-custom-home-built/"
+          >Read Post</a
+        >
+      </section>
 
-        <section>
-            <h2>You can choose your floor plan and design</h2>
-            <p>When you decide to have a custom home built, you are making a statement about who you are and what is important to you. You are saying that you want a unique, one-of-a-kind home that expresses your individuality and showcases your unique style. You are also saying that quality and craftsmanship are important to you and that you are willing to invest in the best.</p>
-            <p>A custom home builder will work with you to create a floor plan that perfectly suits your needs and desires. You can choose from a variety of styles and designs, or you can work with the builder to create a completely custom plan. No matter what you choose, you can be sure that the result will be exactly what you wanted – a home that is truly your own.</p>
-        </section>
-        
-        <section>
-            <h2>The choice is yours</h2>
-            <p>Because you are in charge of designing your new custom home, it will be built exactly the way you want it to look and function. You can choose the number of bedrooms and bathrooms that fit your family’s needs; you can choose finishes including color schemes, flooring materials, cabinets, countertops, and more; you can decide on storage space or outdoor features like decks or patios; basically, there is nothing about the design that is off-limits. Your customized design is created right along with your home by professionals who know their stuff – they’ve been doing this for years!</p>
-        </section>
+      <section>
+        <p>
+          The benefits of having a custom home built are many. A custom-built
+          home is an investment that will last your lifetime and beyond because
+          it was designed with you in mind. When you buy a house off the plan,
+          by contrast, all the design choices have already been made for you –
+          usually without any input from you. The resulting house may be
+          beautiful or ugly, functional or not-so-functional, but it’s unlikely
+          to be perfect for your needs. Imagine how much more contented and
+          productive you would feel if everything about your living space worked
+          just as well as it should! And imagine what kind of difference this
+          could make to the people who share your life with you – children who
+          can’t wait to come home after school, your spouse who wants nothing
+          better than to come home after work, or elderly relatives living with
+          you who need special attention.
+        </p>
+      </section>
 
-        <section>
-            <div class="two-col">
-                <div style="display:flex; flex-direction: column; justify-content: center">
-                    <h2>You can select the materials and finishes that you want</h2>
-                    <p>Most people would rather not think about the construction process. It’s messy, noisy, and disruptive. Not to mention that it can be expensive. But what if there was a way to have all the benefits of a custom home without any of the drawbacks?</p>
-                    <p>There is. It’s called having your home built by a professional contractor. With a custom home builder, you can select the materials and finishes that you want for your home. You can choose everything from the flooring to the roofing material. And because the contractor will have years of experience in <a href="https://www.domainhomecrafters.com/why-are-custom-homes-better-than-prefabricated/">building homes</a>, they will be able to help you make informed decisions about what will work best for your needs and your budget.</p>
-                    <p>Plus, because the contractor is responsible for all aspects of the construction, you won’t have to worry about dealing with multiple subcontractors or home improvement companies. If your cabinets get delayed, or there is an issue with one of the appliances, it will be the contractor’s problem to solve.</p>
-                </div>
-                <div>
-                    <img src="https://lh3.googleusercontent.com/geougc/AF1QipPNWQFeUUfrvPYe54ohr-MWZQhjXOlcwi1xiDoP=h400-no" alt="Custom Home Builders Pleasanton, TX">
-                </div>
-            </div>
-            <a class="button-link"
-                href="https://www.domainhomecrafters.com/">Visit Us</a>
-        </section>
+      <section>
+        <h2>You can choose your floor plan and design</h2>
+        <p>
+          When you decide to have a custom home built, you are making a
+          statement about who you are and what is important to you. You are
+          saying that you want a unique, one-of-a-kind home that expresses your
+          individuality and showcases your unique style. You are also saying
+          that quality and craftsmanship are important to you and that you are
+          willing to invest in the best.
+        </p>
+        <p>
+          A custom home builder will work with you to create a floor plan that
+          perfectly suits your needs and desires. You can choose from a variety
+          of styles and designs, or you can work with the builder to create a
+          completely custom plan. No matter what you choose, you can be sure
+          that the result will be exactly what you wanted – a home that is truly
+          your own.
+        </p>
+      </section>
 
-        <section style="background-color: #8de; padding: 20px;">
-            <h2 style="text-align: center;">There are fewer hassles and headaches</h2>
-            <p>A custom home builder can also help alleviate stress by taking care of any issues that may arise during the building process. Instead of having to deal with homeowners insurance claims on water damage, electrical malfunctions, or damages due to faulty construction workmanship, you can let the professionals handle these problems for you. One call to your builder should clear up any issues that come up. And since he or she will see everything through from the planning stages to the final inspection, those problems will be resolved as quickly and efficiently as possible.</p>
-            <p>Of course, you can also hire a general contractor to build your home if he or she is willing to do all of the work themselves without subcontracting it out. But because building homes is their main source of income, they may not be as motivated to keep every aspect of the process running smoothly until the very end. After all, there are more projects just like yours where they can earn money for services rendered.</p>
-            <h2 style="text-align: center;">You can have as much or as little customization as you want</h2>
-            <p>Most people want a home that is unique and fits their specific needs. They don’t want to have to settle for something that is “off the rack.” A custom home builder can make your dreams a reality, and you can have as much or as little customization as you want. You can choose everything from the floor plan to the finishes, and you can even select the subcontractors who will work on your home. This gives you complete control over the finished product and ensures that it meets all of your specifications.</p>
-        </section>
+      <section>
+        <h2>The choice is yours</h2>
+        <p>
+          Because you are in charge of designing your new custom home, it will
+          be built exactly the way you want it to look and function. You can
+          choose the number of bedrooms and bathrooms that fit your family’s
+          needs; you can choose finishes including color schemes, flooring
+          materials, cabinets, countertops, and more; you can decide on storage
+          space or outdoor features like decks or patios; basically, there is
+          nothing about the design that is off-limits. Your customized design is
+          created right along with your home by professionals who know their
+          stuff – they’ve been doing this for years!
+        </p>
+      </section>
 
-        <section>
-            <div class="two-col">
-                <div>
-                    <img style="width: 100%; height: 450px" src="https://lh3.googleusercontent.com/geougc/AF1QipP2sFpElSe5jy10w75l1Tife_Xu7WmcbE5bJKqR=h400-no" alt="Custom Home Builders Pleasanton, TX">
-                </div>
-                <div style="display:flex; flex-direction:column; justify-content: center;">
-                    <h2>Custom homes are built to last</h2>
-                    <p>The materials that are used in new construction homes today are of higher quality than ever before. Builders have access to advanced technology and better processes, which results in stronger, better-looking homes. They also last longer due to improved insulation, framing techniques, and ventilation systems, among other things. This gives you peace of mind knowing the home you invested so much money in will remain standing for decades to come.</p>
-                    <h2>A custom home can be just what your family needs</h2>
-                    <p>Some people want a custom home because they have several growing children whose needs will change over time or who need different floor plans based on their activities. A custom home builder can help plan out an entire house that is equipped with everything you need to be functional and comfortable. For example, a parent who is constantly taking care of their child in and out of the car might benefit from a home with an expanded garage and indoor access to the kitchen. This kind of design helps make life easier for busy parents.</p>
-                </div>
-            </div>
-            <h2>A custom home builder will work with you to make sure your home is exactly what you want</h2>
-            <p>A custom home builder will work with you every step of the way to make sure your new home is exactly what you want. They’ll help you choose the right floor plan, pick out finishes and fixtures, and even add special features like an outdoor kitchen or a media room. Plus, because they’re working with you from scratch, they can tailor the design of your home specifically to your needs and desires, no matter how unique they may be.</p>
-            <p>Many people decide to build a new home because they’re looking for more space or privacy than they can get in their current home. But the custom home building is also suitable if your needs are more complex, like wanting extra amenities like an art studio, theater room, or game room. A custom home builder will sit down with you and create the perfect plan for your new house (or even remodel plans to bring your existing house up to speed). Because of this planning stage, the process tends to take longer than simply ordering a prefabricated model from a catalog—but at least once it’s finished you’ll have a home that’s truly one of a kind.</p>
-        </section>
+      <section>
+        <div class="two-col">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            "
+          >
+            <h2>You can select the materials and finishes that you want</h2>
+            <p>
+              Most people would rather not think about the construction process.
+              It’s messy, noisy, and disruptive. Not to mention that it can be
+              expensive. But what if there was a way to have all the benefits of
+              a custom home without any of the drawbacks?
+            </p>
+            <p>
+              There is. It’s called having your home built by a professional
+              contractor. With a custom home builder, you can select the
+              materials and finishes that you want for your home. You can choose
+              everything from the flooring to the roofing material. And because
+              the contractor will have years of experience in
+              <a
+                href="https://www.domainhomecrafters.com/why-are-custom-homes-better-than-prefabricated/"
+                >building homes</a
+              >, they will be able to help you make informed decisions about
+              what will work best for your needs and your budget.
+            </p>
+            <p>
+              Plus, because the contractor is responsible for all aspects of the
+              construction, you won’t have to worry about dealing with multiple
+              subcontractors or home improvement companies. If your cabinets get
+              delayed, or there is an issue with one of the appliances, it will
+              be the contractor’s problem to solve.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://lh3.googleusercontent.com/geougc/AF1QipPNWQFeUUfrvPYe54ohr-MWZQhjXOlcwi1xiDoP=h400-no"
+              alt="Custom Home Builders Pleasanton, TX"
+            />
+          </div>
+        </div>
+        <a class="button-link" href="https://www.domainhomecrafters.com/"
+          >Visit Us</a
+        >
+      </section>
 
-        <section>
-            <h2>A custom home is a great investment – it will appreciate over time</h2>
-            <p>A custom home is a great investment – it will appreciate over time. A custom home is also a very personal investment, because you can choose every detail to make it perfect for your needs and lifestyle. You can select the floor plan, the finishes, the fixtures, and even the landscaping. All of these details will combine to create a unique and special space that is perfect for you and your family.</p>
-            <p>Also, a custom home is an investment that will increase your property value, as well as provide you with special home equity. When you combine all of these benefits it adds up to be a small price to pay compared to the cost of buying a house from a developer or builder and then having to improve it yourself at your own expense. In addition, choosing Domain HomeCrafters company that has a lot of inventory and buildable land available in different locations all over Pleasanton will give you variety and great choices no matter what type of budget you have for your new custom homes.</p>
-            <a class="button-link"
-                href="https://google.com/maps/?cid=4340532798739734018">Find Us Here!</a>
-        </section>
+      <section style="background-color: #8de; padding: 20px">
+        <h2 style="text-align: center">
+          There are fewer hassles and headaches
+        </h2>
+        <p>
+          A custom home builder can also help alleviate stress by taking care of
+          any issues that may arise during the building process. Instead of
+          having to deal with homeowners insurance claims on water damage,
+          electrical malfunctions, or damages due to faulty construction
+          workmanship, you can let the professionals handle these problems for
+          you. One call to your builder should clear up any issues that come up.
+          And since he or she will see everything through from the planning
+          stages to the final inspection, those problems will be resolved as
+          quickly and efficiently as possible.
+        </p>
+        <p>
+          Of course, you can also hire a general contractor to build your home
+          if he or she is willing to do all of the work themselves without
+          subcontracting it out. But because building homes is their main source
+          of income, they may not be as motivated to keep every aspect of the
+          process running smoothly until the very end. After all, there are more
+          projects just like yours where they can earn money for services
+          rendered.
+        </p>
+        <h2 style="text-align: center">
+          You can have as much or as little customization as you want
+        </h2>
+        <p>
+          Most people want a home that is unique and fits their specific needs.
+          They don’t want to have to settle for something that is “off the
+          rack.” A custom home builder can make your dreams a reality, and you
+          can have as much or as little customization as you want. You can
+          choose everything from the floor plan to the finishes, and you can
+          even select the subcontractors who will work on your home. This gives
+          you complete control over the finished product and ensures that it
+          meets all of your specifications.
+        </p>
+      </section>
 
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d446373.5023641163!2d-98.487542!3d29.067486!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c3cab9554d05e02!2sDomain%20HomeCrafters%20LLC!5e0!3m2!1sen!2sph!4v1647229069570!5m2!1sen!2sph" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">Custom%20Home%20Builders%20Pleasanton,%20TX</iframe>
-        </section>
+      <section>
+        <div class="two-col">
+          <div>
+            <img
+              style="width: 100%; height: 450px"
+              src="https://lh3.googleusercontent.com/geougc/AF1QipP2sFpElSe5jy10w75l1Tife_Xu7WmcbE5bJKqR=h400-no"
+              alt="Custom Home Builders Pleasanton, TX"
+            />
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            "
+          >
+            <h2>Custom homes are built to last</h2>
+            <p>
+              The materials that are used in new construction homes today are of
+              higher quality than ever before. Builders have access to advanced
+              technology and better processes, which results in stronger,
+              better-looking homes. They also last longer due to improved
+              insulation, framing techniques, and ventilation systems, among
+              other things. This gives you peace of mind knowing the home you
+              invested so much money in will remain standing for decades to
+              come.
+            </p>
+            <h2>A custom home can be just what your family needs</h2>
+            <p>
+              Some people want a custom home because they have several growing
+              children whose needs will change over time or who need different
+              floor plans based on their activities. A custom home builder can
+              help plan out an entire house that is equipped with everything you
+              need to be functional and comfortable. For example, a parent who
+              is constantly taking care of their child in and out of the car
+              might benefit from a home with an expanded garage and indoor
+              access to the kitchen. This kind of design helps make life easier
+              for busy parents.
+            </p>
+          </div>
+        </div>
+        <h2>
+          A custom home builder will work with you to make sure your home is
+          exactly what you want
+        </h2>
+        <p>
+          A custom home builder will work with you every step of the way to make
+          sure your new home is exactly what you want. They’ll help you choose
+          the right floor plan, pick out finishes and fixtures, and even add
+          special features like an outdoor kitchen or a media room. Plus,
+          because they’re working with you from scratch, they can tailor the
+          design of your home specifically to your needs and desires, no matter
+          how unique they may be.
+        </p>
+        <p>
+          Many people decide to build a new home because they’re looking for
+          more space or privacy than they can get in their current home. But the
+          custom home building is also suitable if your needs are more complex,
+          like wanting extra amenities like an art studio, theater room, or game
+          room. A custom home builder will sit down with you and create the
+          perfect plan for your new house (or even remodel plans to bring your
+          existing house up to speed). Because of this planning stage, the
+          process tends to take longer than simply ordering a prefabricated
+          model from a catalog—but at least once it’s finished you’ll have a
+          home that’s truly one of a kind.
+        </p>
+      </section>
 
-        <section>
-            <h2>Things to do in Pleasanton, TX</h2>
-            <iframe src="https://www.tripadvisor.com.ph/Attractions-g56465-Activities-Pleasanton_Texas.html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
-        </section>
+      <section>
+        <h2>
+          A custom home is a great investment – it will appreciate over time
+        </h2>
+        <p>
+          A custom home is a great investment – it will appreciate over time. A
+          custom home is also a very personal investment, because you can choose
+          every detail to make it perfect for your needs and lifestyle. You can
+          select the floor plan, the finishes, the fixtures, and even the
+          landscaping. All of these details will combine to create a unique and
+          special space that is perfect for you and your family.
+        </p>
+        <p>
+          Also, a custom home is an investment that will increase your property
+          value, as well as provide you with special home equity. When you
+          combine all of these benefits it adds up to be a small price to pay
+          compared to the cost of buying a house from a developer or builder and
+          then having to improve it yourself at your own expense. In addition,
+          choosing Domain HomeCrafters company that has a lot of inventory and
+          buildable land available in different locations all over Pleasanton
+          will give you variety and great choices no matter what type of budget
+          you have for your new custom homes.
+        </p>
+        <a
+          class="button-link"
+          href="https://google.com/maps/?cid=4340532798739734018"
+          >Find Us Here!</a
+        >
+      </section>
 
-        <section>
-            <h2>Pleasanton, TX News</h2>
-            <iframe src="http://www.pleasantontx.gov/newslist.php" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
-        </section>
+      <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d446373.5023641163!2d-98.487542!3d29.067486!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c3cab9554d05e02!2sDomain%20HomeCrafters%20LLC!5e0!3m2!1sen!2sph!4v1647229069570!5m2!1sen!2sph"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          >Custom%20Home%20Builders%20Pleasanton,%20TX</iframe
+        >
+      </section>
 
+      <section>
+        <h2>Things to do in Pleasanton, TX</h2>
+        <iframe
+          src="https://www.tripadvisor.com.ph/Attractions-g56465-Activities-Pleasanton_Texas.html"
+          style="border: 0px #ffffff none"
+          name="myiFrame"
+          scrolling="no"
+          frameborder="1"
+          marginheight="0px"
+          marginwidth="0px"
+          height="400px"
+          width="100%"
+          allowfullscreen
+        ></iframe>
+      </section>
 
+      <section>
+        <h2>Pleasanton, TX News</h2>
+        <iframe
+          src="http://www.pleasantontx.gov/newslist.php"
+          style="border: 0px #ffffff none"
+          name="myiFrame"
+          scrolling="no"
+          frameborder="1"
+          marginheight="0px"
+          marginwidth="0px"
+          height="400px"
+          width="100%"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section>
+        <a
+          target="_bLank"
+          href="https://rank-fortress-digital-agency.github.io/domainhomecrafters-02-22/"
+          >https://rank-fortress-digital-agency.github.io/domainhomecrafters-02-22/</a
+        ><br />
+        <a
+          target="_bLank"
+          href="http://domainhomecrafters-02-22.s3-website-ap-southeast-1.amazonaws.com/"
+          >http://domainhomecrafters-02-22.s3-website-ap-southeast-1.amazonaws.com/</a
+        ><br />
+        <a target="_bLank" href="https://boring-wright-07640a.netlify.app/"
+          >https://boring-wright-07640a.netlify.app/</a
+        >
+      </section>
     </div>
-</body>
+  </body>
 </html>
